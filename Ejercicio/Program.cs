@@ -10,7 +10,7 @@ static void Main()
             EjercicioVeterinaria();
             break;
         case 2:
-            ;
+            EjercicioGimnasio();
             break;
         case 3:
             ;
