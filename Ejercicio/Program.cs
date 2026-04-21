@@ -13,7 +13,7 @@ static void Main()
             EjercicioGimnasio();
             break;
         case 3:
-            ;
+            EjercicioEstacionamiento();
             break;
         default:
             Console.WriteLine("Opcion no valida");
