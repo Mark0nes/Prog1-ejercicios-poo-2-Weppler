@@ -15,6 +15,9 @@ static void Main()
         case 3:
             EjercicioEstacionamiento();
             break;
+        case 4:
+            EjercicioTiendaDeMusica();
+            break;
         default:
             Console.WriteLine("Opcion no valida");
             break;

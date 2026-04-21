@@ -18,7 +18,7 @@ namespace Ejercicio03Estacionamiento
         }
         public EgresoVehiculo(string patente)
         {
-            var vehiculo = Vehiculos.First(v => v.Patente == patente);
+            var vehiculo = Vehiculos.FirstOrDefault(v => v.Patente == patente);
             if (vehiculo != null)
             {
                 Vehiculos.Remove(vehiculo);
